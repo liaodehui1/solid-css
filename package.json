@@ -1,9 +1,13 @@
 {
   "name": "solid-css",
   "version": "2.0.0",
-  "description": "",
+  "description": "A styling tool when using solidjs to custom components",
   "module": "./dist/index.es.js",
   "main": "./dist/index.umd.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/liaodehui1/solid-css"
+  },
   "files": [
     "dist"
   ],
