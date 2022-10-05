@@ -1,9 +1,12 @@
 {
   "name": "solid-css",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "",
   "module": "./dist/index.es.js",
   "main": "./dist/index.umd.js",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "start": "vite",
     "dev": "vite",
