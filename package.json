@@ -4,6 +4,7 @@
   "description": "A styling tool when using solidjs to custom components",
   "module": "./dist/index.es.js",
   "main": "./dist/index.umd.js",
+  "typings": "./dist/index.d.ts",
   "repository": {
     "type": "git",
     "url": "https://github.com/liaodehui1/solid-css"
@@ -22,13 +23,15 @@
   "devDependencies": {
     "typescript": "^4.8.4",
     "vite": "^3.1.4",
-    "vite-plugin-solid": "^2.3.9"
+    "vite-plugin-dts": "^1.6.4",
+    "vite-plugin-solid": "^2.3.9",
+    "solid-js": "^1.3.17"
   },
   "dependencies": {
     "csstype": "^3.0.10",
     "goober": "^2.1.11"
   },
   "peerDependencies": {
-    "solid-js": "^1.0.0"
+    "solid-js": "^1.3.17"
   }
 }
