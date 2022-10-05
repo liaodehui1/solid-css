@@ -1,0 +1,26 @@
+{
+  "name": "solid-css",
+  "version": "0.0.0",
+  "description": "",
+  "module": "./dist/index.es.js",
+  "main": "./dist/index.umd.js",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.8.4",
+    "vite": "^3.1.4",
+    "vite-plugin-solid": "^2.3.9"
+  },
+  "dependencies": {
+    "csstype": "^3.0.10",
+    "goober": "^2.1.11"
+  },
+  "peerDependencies": {
+    "solid-js": "^1.0.0"
+  }
+}
